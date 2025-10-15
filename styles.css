@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+.title {
+  margin-bottom: 1em;
+}
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.photo img {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0px 2px 7px #817b88;
+}
+@media(max-width:768px) {
+  .photo-gallery{
+    flex-direction: column;
+  }
+}
 body {
-  background-color: powderblue;
+  background-color: #e4e1e5;
+  font-family: Verdana, Arial, sans-serif;
 }
 h1 {
   color: blue;
