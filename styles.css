@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter, .fa-instagram {
+  color: #817b88;
+}
 
 *{
   padding: 0;
@@ -18,12 +36,12 @@
 .subtitle {
   color: #817b88;
   font-weight: lighter;
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
   font-size: 24px;
 }
 .cv li {
     margin-left: 20px;
-    padding-bottom: 1em;
+    padding-bottom: 1.25em;
 }
 .cv a {
   text-decoration: none;
@@ -41,7 +59,7 @@
 .photo-project img {
   width: 100%;
   max-width: 500px;
-  max-height: 210px;
+  max-height: 200px;
   object-fit: cover;
   padding-bottom: 1em;
 }
@@ -115,8 +133,15 @@ p {
   max-width: 1224px;
   font-size: 23px;}
 nav a {
+  color: #817b88;
   text-decoration: none;
   font-weight: bold;
+}
+nav a:visited {
+  color: #4d4b4f;
+}
+nav a:hover {
+  size: 1000%;
 }
 #navbar {
   text-align: center;
