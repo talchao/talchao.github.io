@@ -43,7 +43,8 @@
     margin-left: 20px;
     padding-bottom: 1.25em;
 }
-.cv a {
+.cv a:visited, .cv a:link, .cv a:hover, .cv  a:active{
+  color: #817b88;
   text-decoration: none;
   font-size: 20px;
 }
